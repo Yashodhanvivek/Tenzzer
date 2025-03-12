@@ -6,7 +6,7 @@ import psutil
 import random
 from transformers import LayoutLMForQuestionAnswering, AutoTokenizer
 
-# ... (mutate_shape, load_and_check, monitor_resources, fuzz_safetensor_data functions - same as before)
+
 
 if __name__ == "__main__":
     model_path = "model.safetensors"  # Path to original model (REPLACE THIS)
